@@ -1,0 +1,33 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="RFID" colour="#00aeae" icon="key">
+    <block type="scan_card"></block>
+    <block type="scan_and_check">
+      <value name="list_name">
+        <shadow type="math_number">
+          <field name="NUM"></field>
+        </shadow>
+      </value>
+    </block>
+    <block type="scan_and_add_card">
+      <value name="list_name">
+        <shadow type="math_number">
+          <field name="NUM"></field>
+        </shadow>
+      </value>
+    </block>
+    <block type="scan_and_remove_card">
+      <value name="list_name">
+        <shadow type="math_number">
+          <field name="NUM"></field>
+        </shadow>
+      </value>
+    </block>
+    <block type="clear_list">
+      <value name="list_name">
+        <shadow type="math_number">
+          <field name="NUM"></field>
+        </shadow>
+      </value>
+    </block>
+  </category>
+</xml>
